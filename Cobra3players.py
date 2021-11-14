@@ -67,7 +67,7 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             exit()
-    
+   #players 
     player1 = pygame.draw.rect(tela, RED, (x, y , tamanho, tamanho))
     player2 = pygame.draw.rect(tela, GREEN, (t, h , tamanho, tamanho))
     player3 = pygame.draw.rect(tela, BLUE, (w, z , tamanho, tamanho))
